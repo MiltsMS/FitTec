@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitTec.View.PopUp.ConfirmarExclusaoPopUp"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             Color="Transparent">
+    <Grid Background="Transparent"  WidthRequest="250">
+        <Frame BackgroundColor="White" BorderColor="Blue" CornerRadius="15"/>
+        <VerticalStackLayout BackgroundColor="Transparent" Padding="20">
+            <Label Text="Atenção!" HorizontalOptions="Center" Margin="0,0,0,20" FontSize="Medium" TextColor="Black"/>
+            <Label Text="Excluir o cliente:" HorizontalOptions="Center" Margin="0,0,0,5" FontSize="Small" TextColor="Black"/>
+            <Label Text="{Binding Cliente.NameLastName}" HorizontalOptions="Center" Margin="0,0,0,0" FontSize="Medium" FontAttributes="Bold" TextColor="Black"/>
+
+            <Grid ColumnDefinitions="47*,6*,47*" Margin="0,20,0,0">
+                <Button Text="Não" BackgroundColor="Red" TextColor="White" Margin="20,0,0,10" Clicked="NaoButton"/>
+                <Button Grid.Column="2" Text="Sim" BackgroundColor="Blue" TextColor="White" Margin="0,0,20,10" Clicked="SimButton"/>
+            </Grid>
+        </VerticalStackLayout>
+    </Grid>
+</toolkit:Popup>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               x:Class="FitTec.View.PopUp.IncluirEditarClientePopUp"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               Color="Transparent">
+
+    <Grid Background="Transparent" WidthRequest="300">
+        <Frame BackgroundColor="White" BorderColor="Blue" CornerRadius="15"/>
+        <VerticalStackLayout BackgroundColor="Transparent" Padding="20" Spacing="5">
+            <Label Text="{Binding Titulo}" HorizontalOptions="Center" Margin="0,0,0,20" FontSize="Medium" TextColor="Black"/>
+
+            <Entry Text="{Binding Cliente.Name}" Keyboard="Default" Placeholder="Nome" TextColor="Black"/>
+            <Entry Text="{Binding Cliente.LastName}" Keyboard="Default" Placeholder="Sobrenome" TextColor="Black"/>
+            <Entry x:Name="EntryAge" Text="{Binding Cliente.Age}" Keyboard="Numeric" MaxLength="3" TextChanged="Entry_TextChanged" Placeholder="Idade" TextColor="Black"/>
+            <Entry Text="{Binding Cliente.Address}" Keyboard="Default" Placeholder="Endereço" TextColor="Black"/>
+
+            <Label Text="Preencha todos os campos antes de continuar!" HorizontalOptions="Center" IsVisible="{Binding LabelAlert}"
+                   Margin="0,10,0,0" FontSize="Micro" TextColor="Red" TextDecorations="Underline"/>
+
+            <Grid ColumnDefinitions="47*,6*,47*" Margin="0,20,0,0">
+                <Button Text="{Binding TextButtonCancelar}" BackgroundColor="Red" TextColor="White" Margin="20,0,0,10" Clicked="CancelarExcluirButton"/>
+                <Button Grid.Column="2" Text="{Binding TextButtonConfirmar}" BackgroundColor="Blue" TextColor="White" Margin="0,0,20,10" Clicked="SalvarButton"/>
+            </Grid>
+        </VerticalStackLayout>
+    </Grid>
+</toolkit:Popup>

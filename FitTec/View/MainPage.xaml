@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitTec.View.MainPage"
+             xmlns:views="clr-namespace:FitTec.ViewModel"
+             BackgroundColor="WhiteSmoke"
+             Appearing="ContentPage_Appearing">
+
+    <ContentPage.BindingContext>
+        <views:MainViewModel />
+    </ContentPage.BindingContext>
+    
+    <Grid RowDefinitions="auto,80*,10*" Margin="0" Padding="0" RowSpacing="0" ColumnSpacing="0">
+
+        <Entry Grid.Row="0" Margin="20,0" Placeholder="Buscar cliente" Text="{Binding EntryCliente}" TextColor="Black"/>
+
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Clientes}" Margin="20,20,20,0" BackgroundColor="Transparent">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="0" Margin="0,5,0,0" BackgroundColor="White">
+                        <Grid RowDefinitions="*,*" ColumnDefinitions="*,auto" VerticalOptions="Center" HorizontalOptions="Fill" BackgroundColor="Transparent" Padding="10">
+                            <Label Text="{Binding NameFormated}" TextColor="Black"/>
+                            <Label Grid.Row="1" Text="{Binding Address}" TextColor="Black"/>
+                            <Label Grid.Column="1" Grid.Row="2" Text="Editar >" TextColor="Black" FontSize="Micro" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+                        </Grid>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type views:MainViewModel}}, Path=PushItemCommand}" CommandParameter="{Binding .}"/>
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Grid.Row="2" Text="Adicionar Cliente" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Blue" TextColor="White" Command="{Binding PushCommand}"/>
+    </Grid>
+</ContentPage>

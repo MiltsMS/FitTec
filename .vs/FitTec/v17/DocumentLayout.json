@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|c:\\users\\milto\\desktop\\fittec\\fittec\\fittec\\view\\popup\\incluireditarclientepopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|solutionrelative:fittec\\view\\popup\\incluireditarclientepopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|c:\\users\\milto\\desktop\\fittec\\fittec\\fittec\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|solutionrelative:fittec\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|c:\\users\\milto\\desktop\\fittec\\fittec\\fittec\\view\\popup\\confirmarexclusaopopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|solutionrelative:fittec\\view\\popup\\confirmarexclusaopopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|c:\\users\\milto\\desktop\\fittec\\fittec\\fittec\\viewmodel\\popup\\confirmarexclusaopopupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|solutionrelative:fittec\\viewmodel\\popup\\confirmarexclusaopopupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|c:\\users\\milto\\desktop\\fittec\\fittec\\fittec\\view\\popup\\incluireditarclientepopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|solutionrelative:fittec\\view\\popup\\incluireditarclientepopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|c:\\users\\milto\\desktop\\fittec\\fittec\\fittec\\viewmodel\\popup\\incluireditarclientepopupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FF88BB-B81B-458C-A1ED-45B430B0D56E}|FitTec\\FitTec.csproj|solutionrelative:fittec\\viewmodel\\popup\\incluireditarclientepopupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IncluirEditarClientePopUp.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\View\\PopUp\\IncluirEditarClientePopUp.xaml.cs",
+              "RelativeDocumentMoniker": "FitTec\\View\\PopUp\\IncluirEditarClientePopUp.xaml.cs",
+              "ToolTip": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\View\\PopUp\\IncluirEditarClientePopUp.xaml.cs",
+              "RelativeToolTip": "FitTec\\View\\PopUp\\IncluirEditarClientePopUp.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA6wCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T23:10:58.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IncluirEditarClientePopUpViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\ViewModel\\PopUp\\IncluirEditarClientePopUpViewModel.cs",
+              "RelativeDocumentMoniker": "FitTec\\ViewModel\\PopUp\\IncluirEditarClientePopUpViewModel.cs",
+              "ToolTip": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\ViewModel\\PopUp\\IncluirEditarClientePopUpViewModel.cs",
+              "RelativeToolTip": "FitTec\\ViewModel\\PopUp\\IncluirEditarClientePopUpViewModel.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwEQAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T23:05:13.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfirmarExclusaoPopUpViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\ViewModel\\PopUp\\ConfirmarExclusaoPopUpViewModel.cs",
+              "RelativeDocumentMoniker": "FitTec\\ViewModel\\PopUp\\ConfirmarExclusaoPopUpViewModel.cs",
+              "ToolTip": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\ViewModel\\PopUp\\ConfirmarExclusaoPopUpViewModel.cs",
+              "RelativeToolTip": "FitTec\\ViewModel\\PopUp\\ConfirmarExclusaoPopUpViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T23:04:58.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfirmarExclusaoPopUp.xaml",
+              "DocumentMoniker": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\View\\PopUp\\ConfirmarExclusaoPopUp.xaml",
+              "RelativeDocumentMoniker": "FitTec\\View\\PopUp\\ConfirmarExclusaoPopUp.xaml",
+              "ToolTip": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\View\\PopUp\\ConfirmarExclusaoPopUp.xaml",
+              "RelativeToolTip": "FitTec\\View\\PopUp\\ConfirmarExclusaoPopUp.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-17T23:00:43.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncluirEditarClientePopUp.xaml",
+              "DocumentMoniker": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\View\\PopUp\\IncluirEditarClientePopUp.xaml",
+              "RelativeDocumentMoniker": "FitTec\\View\\PopUp\\IncluirEditarClientePopUp.xaml",
+              "ToolTip": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\View\\PopUp\\IncluirEditarClientePopUp.xaml",
+              "RelativeToolTip": "FitTec\\View\\PopUp\\IncluirEditarClientePopUp.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-17T22:56:11.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\View\\MainPage.xaml",
+              "RelativeDocumentMoniker": "FitTec\\View\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\milto\\Desktop\\FitTec\\FitTec\\FitTec\\View\\MainPage.xaml",
+              "RelativeToolTip": "FitTec\\View\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-17T22:53:06.648Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
